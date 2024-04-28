@@ -1,0 +1,54 @@
+.landing-page{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.landing-page>div{
+    width: 50%;
+    height: 100%;
+}
+.landing-page-left-section{
+    background-color: green;
+    background: url("https://blog.vantagecircle.com/content/images/2021/01/Employee-Management-Meaning-Importance-Tips-Tools---More.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landing-page-right-section{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-form-container{
+    
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 350px;
+   
+}
+.form-title{
+    text-align: center;
+}
+.login-form input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+}
+.login-form button{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
